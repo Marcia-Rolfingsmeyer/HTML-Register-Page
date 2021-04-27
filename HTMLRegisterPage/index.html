@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUpForm</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <header>
+
+<!--    <nav>
+        <button type="url" value="AboutUs">About Us</button>
+        <button type="url" value="LogIn">LogIn</button>
+    </nav>
+-->
+
+        <div class = "flex-container">
+            <div id = "buttonAU">
+                <form action="https://elevenfifty.org">
+                    <button type="url" value="AboutUs">About Us</button>
+                </form>
+            </div>
+            
+            <div class = "button">
+                <form action="LogIn">
+                    <button type="url" value="LogIn">LogIn</button>
+                </form>  
+            </div>
+        
+        <!--according to W3 - buttons "onclick" requires Java Script... 
+            I didn't have time to figure out how to get that to work tonight -->
+        </div>
+    
+    <h1>Style Diva's!</h1>
+    <hr>
+    </header>
+
+    <div class = "container">
+        <h3>Sign Up</h3>
+        <br>
+      
+        <form>
+            <input type="uname" placeholder="Enter Email" id="uname" name="uname">
+            <br>
+            <br>
+            <input type="psw" placeholder="Enter Password" id="psw" name="psw">
+            <br>
+            <br>
+            <input type="cpsw" placeholder="Confirm Password"  id="cpsw" name="cpsw">
+            <br>
+            <br>
+            <button type="submit">SignUp</button>
+        </form>
+    </div>
+</body>
+</html>
